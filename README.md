@@ -10,9 +10,9 @@ To use finder.sh and unpack an asar file, follow these steps:
 
 1. Open a terminal window and navigate to the directory where finder.sh is located.
 
-2. Run the finder.sh script with the asar file as an argument. For example:
+2. Run the finder.sh script for example:
 
-./finder.sh myasarfile.asar
+`./finder.sh`
 
 3. The finder.sh script will unpack the asar file and display the path to SWAuth2. Make a note of this path, as you will need it in the next step.
 
@@ -20,7 +20,7 @@ To use finder.sh and unpack an asar file, follow these steps:
 
 5. Run main.py by entering the following command:
 
-python main.py
+`python main.py` and or `python3 main.py`
 
 6. main.py will create a user.txt file and add accounts in the format username:pass.
 
